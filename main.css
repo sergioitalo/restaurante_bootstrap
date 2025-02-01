@@ -1,0 +1,124 @@
+body {
+    font-family: "Roboto", serif;
+    
+}
+
+header {
+    background-color: #e15f41;
+}
+
+.fontPacifico {
+    font-family: Pacifico;
+}
+
+.colorPrimary {
+    color: #e15f41;
+}
+
+#cabecalho .navbar-brand,
+#cabecalho .navbar-brand:hover {
+    color: #fff;
+    font-size: 30px;
+}
+
+#cabecalho .navbar-nav .nav-link.active {
+    background-color: #fff;
+    color: #e15f41;
+}
+
+#cabecalho .navbar-nav .nav-link {
+    color: #fff;
+}
+
+#cabecalho .navbar-toggler {
+    background-color: #fff;
+}
+
+#sobreContent,
+#cardapio {
+    background-color: #ffeae6;
+
+}
+
+#cardapio .nav .nav-link.active {
+    background-color: #e15f41;
+    color: #fff;
+}
+
+#cardapio .nav .nav-link {
+    color: #e15f41;
+}
+
+
+
+#contato form .btn {
+    background-color: #e15f41;
+    color: #fff;
+}
+
+#contato form #mensagem {
+    height: 120px;
+}
+
+#contato ul li{
+    display: inline;
+}
+
+#contato ul li a {
+    text-decoration: none;
+}
+
+#contato form .btn:hover {
+    background-color: #823623;
+}
+
+footer {
+    background-color: #e15f41;
+    color: #fff;
+}
+
+
+@media screen and (max-width:767px) {
+    .imgContent {
+        margin-bottom: 16px;
+    }
+
+    #contato form {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 386px) {
+    header .navbar-toggler {
+        margin-right: 16px;
+        margin-top: 16px;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 991px) {
+    #navbarHeader {
+        margin-top: 30px;
+    }
+
+    header .navbar-nav {
+        width: 300px;
+    }
+
+    
+
+
+}
+
+@media screen and (min-width: 991px) {
+    #contato form {
+        width: 400px;
+    }
+}
+
+
+
