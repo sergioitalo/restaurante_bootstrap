@@ -109,6 +109,10 @@ footer {
         width: 300px;
     }
 
+    header .navbar-nav .nav-link {
+        padding-left: 8px;
+    }
+
     
 
 
